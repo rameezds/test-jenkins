@@ -1,0 +1,195 @@
+// Font styles
+.default-heading {
+  font-family: "Inter" !important;
+  font-weight: 500;
+  font-size: 14px;
+  color: #161c27;
+}
+.main-heading {
+  font-family: "Inter" !important;
+  font-weight: 600;
+  font-size: 18px;
+  color: #161c27;
+}
+.default-font {
+  font-family: "Inter" !important;
+  font-weight: 500;
+  font-size: 12px;
+  color: #8692a6;
+  // font-weight: 400;
+}
+
+.default-icon {
+  width: 39px;
+  // height: 39px;
+  color: #161c27;
+}
+// Transaction table in Payments
+.transaction-table {
+  font-family: "Inter" !important;
+  font-weight: 500;
+  font-size: 12px;
+}
+.transaction-table td:not(:first-child) {
+  font-size: 12px !important;
+  width: 150px !important;
+}
+.transaction-table td:first-child,
+.transaction-table th:first-child {
+  width: 60px !important;
+}
+// Dropdown style
+.v-list-item--link {
+  font-family: "Inter" !important;
+  font-size: 12px;
+  font-weight: 500 !important;
+}
+
+// login card or main cards css
+.main-card {
+  width: 420px;
+}
+.mobile-main-card {
+  margin-top: 20%;
+}
+//   auth screen footer
+.footer {
+  margin-top: 20%;
+}
+.color-dark {
+  color: #161c27;
+}
+h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+//   auth screen footer
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+// user screen css here
+.theme--light.v-input.search-field input::placeholder {
+  color: #8692a6;
+  font-weight: 400;
+}
+.theme--light.v-input.brand-search-field input::placeholder {
+  color: #99a0b5;
+  font-weight: 400;
+  font-size: 11px;
+}
+.search-field input {
+  color: #8692a6 !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+// modal box user screen css
+.dialog-style {
+  box-shadow: none;
+  overflow-x: hidden;
+}
+.theme--light.v-input.search-field-modal input::placeholder {
+  color: #99a0b5 !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+
+.theme--light.v-input input,
+.theme--light.v-input textarea {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+
+// check box admin panel
+.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+  color: rgba(0, 0, 0, 0.87);
+  height: 10px;
+}
+// end of user screen css
+
+// check box
+.mdi-checkbox-blank-outline {
+  color: #8692a6 !important;
+}
+//   auth screen footer
+
+a {
+  text-decoration: none;
+}
+.v-btn {
+  text-transform: none;
+}
+.bg-white {
+  background-color: #fff;
+}
+.flow-bar {
+  border-radius: 8px;
+  height: 74px;
+}
+.v-data-table tr:hover:not(.v-data-table__expanded__content) {
+  background: #f7f7f9 !important;
+}
+
+//  no borders
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+  box-shadow: none !important;
+  border-radius: 0px;
+}
+
+/****************************** text field border styling globally ***********************/
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat).top-row-radius > .v-input__control > .v-input__slot {
+  border-radius: 4px 0px 0px 4px;
+}
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat).secondary-filters > .v-input__control > .v-input__slot {
+  border-radius: 8px;
+}
+
+.align-item-center {
+  justify-content: center;
+  align-items: center;
+}
+// history filters css
+// ***********************************
+
+.img-pointer {
+  cursor: pointer;
+}
+.toogle-div-center {
+  border-radius: 4px;
+  background-color: white;
+  height: 38px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.align-toggle-filter {
+  position: relative;
+  top: 15px;
+  left: 12px;
+}
+
+// Progress bar linear
+.v-progress-linear--visible .v-progress-linear__indeterminate--active .long,
+.v-progress-linear--visible .v-progress-linear__indeterminate--active .short {
+  background-color: #6397a8 !important;
+}
+
+// *********************************
+tbody tr:nth-of-type(odd) {
+  background-color: #F7F7F9;
+}
+// *********************************
+// media querry for top row border radius
+@media only screen and (max-width: 960px) {
+  .v-text-field.v-text-field--solo:not(.v-text-field--solo-flat).top-row-radius > .v-input__control > .v-input__slot {
+    border-radius: 0px;
+  }
+}
+// text wrapping global class
+.text-wrapping{
+  overflow-wrap: anywhere;
+/* word-wrap: break-word; */
+word-break: normal;
+/* hyphens: auto; */
+}

@@ -1,0 +1,189 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode",
+    "dass": "typicode",
+    "das": "typicode",
+    "sa": "typicode",
+    "as": "typicode"
+  },
+  "history": [
+    {
+      "iban": 1234,
+      "name": "some comment",
+      "currency": "PK",
+      "merchant":"merchant",
+      "brand":"Merchant Office",
+      "created_at":"2022-01-01",
+      "amount":"300$",
+      "action":"View Details",
+      "status":"Pending"
+    },
+    {
+      "iban": 7704,
+      "name": "Dev",
+      "currency": "PK",
+      "merchant":"Unknown",
+      "brand":"Merchant Office",
+      "created_at":"2022-01-01",
+      "amount":"300$",
+      "action":"View Details",
+      "status":"Completed"
+    },
+    {
+      "iban": 1537,
+      "name": "Vuetify",
+      "currency": "Uk",
+      "merchant":"Merchant",
+      "brand":"Merchant Office",
+      "created_at":"2022-01-01",
+      "amount":"300$",
+      "action":"View Details",
+      "status":"Failed"
+    },
+    {
+      "iban": 1234,
+      "name": "some comment",
+      "currency": "PK",
+      "merchant":"merchant",
+      "brand":"Merchant Office",
+      "created_at":"2022-01-01",
+      "amount":"300$",
+      "action":"View Details",
+      "status":"Pending"
+    },
+    {
+      "iban": 1234,
+      "name": "some comment",
+      "currency": "PK",
+      "merchant":"",
+      "brand":"Merchant Office",
+      "created_at":"2022-01-01",
+      "amount":"300$",
+      "action":"View Details",
+      "status":"Pending"
+    },
+    {
+      "iban": 1234,
+      "name": "some comment",
+      "currency": "PK",
+      "merchant":"merchant",
+      "brand":"Merchant Office",
+      "created_at":"2022-01-01",
+      "amount":"300$",
+      "action":"View Details",
+      "status":"Pending"
+    },
+    {
+      "iban": 1234,
+      "name": "some comment",
+      "currency": "PK",
+      "merchant":"",
+      "brand":"Merchant Office",
+      "created_at":"2022-01-01",
+      "amount":"300$",
+      "action":"View Details",
+      "status":"pending"
+    }
+  ],
+   "user-data":[
+      {
+        "fullName": "Developer",
+        "userId": "some comment",
+        "userName": "PK",
+        "login":"today",
+        "rights":"read/write",
+        "created_at":"2022-01-01",
+        "active":true,
+        "action":"Manage User"
+      },
+      {
+        "fullName": "Developer",
+        "userId": "devCode",
+        "userName": "PK",
+        "login":"today",
+        "rights":"read/write",
+        "created_at":"2022-01-01",
+        "active":false,
+        "action":"Manage User"
+      },
+      {
+        "fullName": "Developer",
+        "userId": "some comment",
+        "userName": "PK",
+        "login":"today",
+        "rights":"read/write",
+        "created_at":"2022-01-01",
+        "active":true,
+        "action":"Manage User"
+      },
+      {
+        "fullName": "Developer",
+        "userId": "some comment",
+        "userName": "PK",
+        "login":"today",
+        "rights":"read/write",
+        "created_at":"2022-01-01",
+        "active":false,
+        "action":"Manage User"
+      },
+      {
+        "fullName": "Developer",
+        "userId": "some comment",
+        "userName": "PK",
+        "login":"today",
+        "rights":"read/write",
+        "created_at":"2022-01-01",
+        "active":true,
+        "action":"Manage User"
+      }
+     
+   ],
+   "merchant-data":[
+     {
+       "merchant": "Pepsi",
+       "merchant_name": "7up",
+       "reference":"Sprite",
+       "Owner": "Unkown",
+       "active":true,
+       "action":"Edit Merchant"
+
+     },
+     {
+      "merchant": "Pepsi",
+      "merchant_name": "7up",
+      "reference":"Sprite",
+      "Owner": "Unkown",
+      "active":false,
+      "action":"Edit Merchant"
+
+    }
+   ],
+   "batch-transaction":[
+     {
+     "batch_id":"098726",
+     "merchant_name":"Developers Studio",
+     "file_name":"csv",
+     "created_at":"01-92-81"
+     },
+     {
+      "batch_id":"72662",
+      "merchant_name":"Developers Studio",
+      "file_name":"csv2",
+      "created_at":"01-92-81"
+      }
+   ]
+}
